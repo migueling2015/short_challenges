@@ -1,3 +1,14 @@
+// This is from https://edabit.com/challenge/xkBFTcHuJTXmrLwjw
+
+
+// function atbash(str) {
+// 	var normal = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// 	var reverse= "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA";
+// 	return str.replace(/([a-zA-z])/g, function(a,b){
+// 		return reverse.charAt(normal.indexOf(b));
+// 	})	
+// }
+
 function atbash(str) {
     let str_response='';
     const letters=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
